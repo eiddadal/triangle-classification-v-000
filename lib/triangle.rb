@@ -8,6 +8,10 @@ class Triangle
   end 
   
   def kind
+    if a <= 0 
+      raise TriangleError
+      elsif 
+    end 
    if a <= 0 
      raise TriangleError 
      elsif a+b<=c || b+c<=a || a+c<=b
@@ -18,7 +22,7 @@ class Triangle
    return : equilateral
  else 
    :scalene
-   
+ 
   end 
   
   
