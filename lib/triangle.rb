@@ -8,7 +8,7 @@ class Triangle
   end 
   
   def kind(a, b, c)
-    if a == b == c
+    if a == b && a == c
       return equilateral
     end 
   end 
