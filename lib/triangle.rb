@@ -7,8 +7,8 @@ class Triangle
    @c = c 
   end 
   
-  def kind(length_1, length_2, length_3)
-    if length_1 == length_2 && length_2 == length_3
+  def kind(a, b, c)
+    if a == b == c
       return equilateral
     end 
   end 
