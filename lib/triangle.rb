@@ -7,15 +7,8 @@ class Triangle
     @length_3 = length_3
   end 
   
-  def kind(length_1, length_2, length_3)
-    if length_1 == length_2 || length_2 == length_3 || length_3 == length_1
-      equilateral
-    end 
-
-isosceles
-
-scalene
-  end 
+  def kind
+ 
   
   class TriangleError < StandardError 
   end
