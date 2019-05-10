@@ -8,11 +8,11 @@ class Triangle
   end 
   
   def kind(length_1, length_2, length_3)
-    :equilateral
+    equilateral
 
-:isosceles
+isosceles
 
-:scalene
+scalene
   end 
   
   class TriangleError < StandardError 
