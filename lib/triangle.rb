@@ -7,7 +7,7 @@ class Triangle
     @length_3 = length_3
   end 
   
-  def kind 
+  def kind(length_1, length_2, length_3)
     :equilateral
 
 :isosceles
