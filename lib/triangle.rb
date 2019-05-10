@@ -12,7 +12,7 @@ class Triangle
       raise TriangleError
       elsif a+b <= c || b+c <= a || a+c <= b 
       raise TriangleError
-      elsif a == b || b == c || a == c 
+      elsif a == b && a != c || b == c &&  b != a|| a == c && a != b
       return :isosceles
       elsif a == b && a == c 
       return :equilateral
