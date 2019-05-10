@@ -8,7 +8,9 @@ class Triangle
   end 
   
   def kind
-   if 
+   if a <= 0 
+     raise TriangleError 
+     elsif 
      elsif a == b || b == c || a == c 
      return :isosceles
    elsif a == b && a == c 
