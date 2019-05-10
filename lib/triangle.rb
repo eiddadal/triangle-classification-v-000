@@ -10,7 +10,8 @@ class Triangle
   def kind
    if a <= 0 
      raise TriangleError 
-     elsif 
+     elsif a+b<=c || b+c<=a || a+c<=b
+     raise TriangleError
      elsif a == b || b == c || a == c 
      return :isosceles
    elsif a == b && a == c 
